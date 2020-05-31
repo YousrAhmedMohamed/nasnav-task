@@ -10,7 +10,7 @@ class ActivityCard extends React.Component {
   render() {
     return <div className="brand-card-body" >
       <div className="container-card">
-        <img src={this.props.imageActivity} alt="cart" />
+        <img src={this.props.imageActivity} alt="cart" style={{ width: '100%' }} />
         <div className="container-card" style={{ padding: '15px' }}>
           <img src={this.props.imageBrand} alt="imageBrand" className="brand-style" />
           <span className="activity-span">{this.props.activityName}</span>

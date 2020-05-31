@@ -1,51 +1,64 @@
-
 @import '../../style/style.scss';
-
-.scroll-body{
-  margin-left: -1px;
-  margin-bottom: 100px;
-  display: flex;
-  align-items: flex-start;
-  flex-direction: row;
-    white-space:nowrap;
-    width: 100%;
-  overflow-x: scroll;
+.scroll-body {
+	margin-left: -1px;
+	margin-bottom: 100px;
+	display: flex;
+	align-items: flex-start;
+	flex-direction: row;
+	white-space: nowrap;
+	width: 100%;
+	overflow-x: scroll;
 }
 
 .scroll-body::-webkit-scrollbar {
-    display: none;
+	display: none;
 }
 
 .scroll-body {
-    -ms-overflow-style: none;
+	-ms-overflow-style: none;
+}
+.image-blog{
+	
+	@include respond-to(tablet) {
+    width: 350px;
+    height: 424px;
+	}
+	  width: 383px;
+    height: 493px;
+}
+.blog-card-body {
+	
+	@include respond-to(tablet) {
+	width: 349px;
+	height: 422px;
+	}
+	position: relative;
+	width: 389px;
+	height: 492px;
+	margin-right: 20px;
+	border: 1px solid $primary-color;
+	border-radius: 10px;
+	display: inline-block;
+	align-items: flex-start;
 }
 
-.blog-card-body{
-position: relative;
-width: 389px;
-height: 492px;
-margin-right: 20px;
-border: 1px solid $primary-color;
-border-radius: 10px;
-display: inline-block;
-align-items: flex-start;
+.show-more-span {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	color: white;
+	cursor: pointer;
+	font-size: 18px;
+	font-family: $font-poppins;
 }
-.show-more-span{
-  position: absolute;
-  right: 10px;
-  top:10px;
-  color: white;
-  cursor: pointer;
-  font-size: 18px;
-  font-family: $font-poppins;
-}
-.blog-span{
-  position: absolute;
-  left: 10px;
-  bottom:10px;
-  color: white;
-  cursor: pointer;
-  font-size: 30px;
-  font-weight: lighter;
-  font-family: $font-poppins;
+
+.blog-span {
+	position: absolute;
+	left: 10px;
+	bottom: 10px;
+	color: white;
+	cursor: pointer;
+	font-size: 30px;
+	font-weight: lighter;
+	font-family: $font-poppins;
 }

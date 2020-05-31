@@ -20,10 +20,7 @@ class ScrollBrands extends React.Component {
         <span className="blog-span">
           Blog
         </span>
-        <img src={blogPic} alt="blog" style={{
-          width: '383px',
-          height: '493px'
-        }} />
+        <img src={blogPic} alt="blog" className="image-blog" />
       </div>
       <ActivityCard
         imageActivity={CustomerService}

@@ -68,7 +68,7 @@ class Footer extends React.Component {
 
       </div>
       <div className="design-by">
-        Rasport clothing for the young, the old & everyone in between – but most importantly, for the fashionable
+        DESIGN BY NasNav - © 2020 ALL RIGHTS RESERVED.
       </div>
 
     </div>

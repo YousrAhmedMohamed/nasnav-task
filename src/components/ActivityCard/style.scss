@@ -1,0 +1,42 @@
+@import '../../style/style.scss';
+
+.brand-card-body{
+width: 389px;
+height: 492px;
+margin-left: 20px;
+border: 1px solid $primary-color;
+border-radius: 10px;
+display: inline-block;
+align-items: flex-start;
+ &:hover {
+box-shadow: 0px 11px 40px  #00000029;
+ }
+}
+
+.container-card{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+}
+.activity-span{
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  font-family: $font-poppins;
+}
+.more-span{
+  white-space: pre-wrap;
+  font-size: 16px;
+  color: #7B8591;
+  text-align: left;
+  font-family: $font-poppins;
+  width: 304px;
+}
+.see-more{
+  font-size: 15px;
+  font-weight: bold;
+  color: $primary-color;
+  cursor: pointer;
+}

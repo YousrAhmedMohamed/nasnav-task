@@ -1,0 +1,39 @@
+@import '../../style/style.scss';
+
+.button-style {
+
+    min-width: 145px;
+  height: 41px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  background-color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  border-radius: 32.5px;
+  outline: 0;
+  color: $primary-color;
+    
+}
+
+.button-style:disabled {
+  opacity: 0.8;
+    
+}
+
+
+
+.button-label {
+  
+    font-size: 13px;
+  text-transform: uppercase;
+  vertical-align: middle;
+  background-color: transparent;
+  cursor: pointer;
+  font-family:  $font-poppins, Semibold;
+  text-align: center;
+}
+
+
+
